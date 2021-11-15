@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../pics/welcome.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.welcome{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color:rgb(199, 221, 240);
+    top:250px;
+}
+.welcome h1{
+    font-family: 'Original Surfer', cursive;
+    font-size: 50px;
+
+}
+
+.welcometext{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color:rgb(231, 121, 69);
+    top:300px;
+   
+}
+.welcometext h3{
+    text-align: center;
+    overflow:hidden;
+    white-space: nowrap;
+    font-family: 'Original Surfer', cursive;
+    font-size: 25px;
+  
+}
+
+
+button{
+    position: relative;
+    text-align: center;
+    top:320px;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: thistle;
+    cursor: pointer;
+    margin-left: 585px;
+    font-size: 15px;
+    
+}
+
+button:hover{
+    background-color: rgb(153, 153, 38);
+    color:black;
+}
+
+h4{
+    margin-top: 430px;
+    color: rgb(0, 1, 5);
+    font-size: 17px;
+}
+
